@@ -2,20 +2,22 @@ body{
   font-family:sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  border-top: 5px solid #222;
   border-bottom: 5px solid #222;
   margin: 30px auto;
   width: 800px;
-  padding:50px;
-  background-color: #F6F6F6;
 }
 .current_page {
   font-style:italic;
 }
-nav{
-  text-align: center;
-  color: #222;
 
+nav{
+  text-align: right;
+  color: #222;
+}
+.banner{
+  background-image:url("images/hello-i-m-nik-281498_topbanner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 nav ul {
   list-style-type: none;
@@ -31,7 +33,7 @@ nav li {
 }
 
 h1 {
-  text-transform: uppercase;
+  font-family: 'Source Serif Pro', serif;
   text-align: center;
   margin-top: 0;
   color: #030609;
