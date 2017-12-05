@@ -35,16 +35,30 @@ img {
 .content {
   padding:40px;
   background-color: rgb(230, 243, 251);
+  padding-bottom: 20px;
+}
+.portfolio{
+  padding: 20px;
+  background-color: #fff;
+  padding-bottom: 0px;
+}
+.portfolio_pic{
+  width: 541px
+  margin:0 auto;
+  padding-left:69px;
 }
 h1 {
   font-size: 32px;
   text-align: left;
-  margin-bottom: 0;
   color: rgb(90, 110, 122);
+  margin-top: 0px;
+  padding-bottom: 0px;
+
 }
 h3 {
-font-size: 20px;
+font-size: 25px;
   text-align: left;
+  margin-top: 0;
   margin-bottom: 0;
   color: rgb(90, 110, 122);
 }
@@ -64,6 +78,16 @@ p {
 a{
   font-weight: bold;
   color: rgb(90, 110, 122);
+}
+.portfolio li{
+  font-family: helvetica;
+}
+.bold_italic{
+  font-style: italic;
+  font-weight: bold;
+}
+.bold{
+  font-weight: bold;
 }
 .socialmedia{
   float: left;
